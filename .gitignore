@@ -1,13 +1,15 @@
-# Python bytecode
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Virtual environments
 venv/
-.env/
 
-# OS files
+# OS
 .DS_Store
 
-# IDE settings
+# IDE
 .vscode/
+.idea/
