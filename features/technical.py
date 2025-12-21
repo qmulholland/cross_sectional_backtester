@@ -1,5 +1,14 @@
 """
+Technical.py serves as the mathematical foundation of the project by
+transforming raw price data into statistical features. It calculates
+momentum, volatility, and cross-sectional Z-scores. It creates a 
+standardized field where stocks can be compared directly regardless
+of their nominal price levels.
 
+In the future, it can be expendad to include more complex technical
+indicates (RSI, Mean Reversion Signals, or Volume-Weighted Metrics). 
+This would create a multi-dimensional view of market behavior and
+potentially increase the predictive accuracy of the final signal.
 """
 import pandas as pd         #imports pandas
 import numpy as np          #imports numpy
