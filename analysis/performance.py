@@ -122,7 +122,7 @@ def performance_analysis(tickers, start_date="2020-01-01", split_date="2023-01-0
     plt.show()
 
 
-#Execution Entry Point, Update Tickers
+#Execution Entry Point, Kept for Isolated Testing
 if __name__ == "__main__":
-    tickers = ["AAPL", "NVDA", "MSFT", "LCID"]      #Example Tickers, Update
+    tickers = []      #Empty Tickers, Update if Testing Isolated
     performance_analysis(tickers)
