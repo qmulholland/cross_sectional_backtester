@@ -5,7 +5,7 @@ a centralized export point to make importing features cleaner.
 In the future, it can be used to organizer different
 types of features into a single unified interface
 for the performance scripts. This maintains
-a clean and organized codebase, regardless of 
+a clean and organized codebase, not dependdent on 
 number of indicators or different data sources.
 """
 

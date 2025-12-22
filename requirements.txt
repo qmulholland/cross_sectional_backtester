@@ -1,13 +1,16 @@
-"""
-Requirements.txt specifies the Python libraries needed to  
-handle the quantitative pipeline for data ingestion, 
-engineering, and visualization.
-"""
+# Core Data Handling
 pandas>=2.0
-numpy>=1.27
+numpy>=1.20
+
+# Data Acquisition
 yfinance>=0.2
+
+# Visualization
 matplotlib>=3.8
-scikit-learn>=1.3
-xgboost>=1.8
-lightgbm>=4.0
-shap>=0.43
+
+
+#Requirements.txt specifies the Python libraries needed to  
+#handle the quantitative pipeline for data ingestion, 
+#engineering, and visualization.
+
+#Run with "pip install -r requirements.txt"
